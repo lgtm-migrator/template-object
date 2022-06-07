@@ -52,7 +52,12 @@ objectObject.params = {title,headStylesComponent, fonts };
 
 
 /// const template = {}
-
+prototypeObject = {
+	fullName: function(){
+		return this.firstName + " " + this.lastName		
+	}
+}
+var person = Object.create(prototypeObject)
 
 /// title, headStylesComponent, fonts
 function displayFactory(component = "Hello", params = {}, checks = [], isError = false) {
