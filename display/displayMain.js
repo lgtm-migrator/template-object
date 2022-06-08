@@ -2,13 +2,15 @@
 import DisplayHead from './displayHead';
 import DisplayBody from './displayBody';
 
-import MainComponent from '../components/main';
+// import MainComponent from '../components/main';
 
 // note that head and body params are actually `displayHead` & `displayBody` 
 // methods for sub-components
 
 console.log(DisplayHead);
 console.log(DisplayBody);
+
+
 
 
 const DisplayMain = {
