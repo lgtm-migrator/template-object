@@ -14,6 +14,20 @@ const {
 
 
 
+
+//variant one
+const settings = {
+  component: MainComponent,
+  params: {  },
+  subComponents: { DisplayHead, DisplayBody }
+  
+}
+
+// const DM = displayFactory(objObjObj, [], {});
+
+
+// DM.display();
+
 const DisplayFooter = {
     component: footerComponent,
     params: { copyrights, address, unsubscribe, newsletterSponsorshipLink },

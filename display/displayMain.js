@@ -4,6 +4,9 @@ import displayFactory from './factory';
 import DisplayHead from './displayHead';
 import DisplayBody from './displayBody';
 
+
+
+
 // import MainComponent from '../components/main';
 
 // note that head and body params are actually `displayHead` & `displayBody` 
@@ -12,11 +15,37 @@ import DisplayBody from './displayBody';
 console.log(DisplayHead);
 console.log(DisplayBody);
 
+
+
+
+//variant one
+const settings = {
+  component: MainComponent,
+  params: {  },
+  subComponents: { DisplayHead, DisplayBody }
+  
+}
+
+//variant two
+const params = {};
+const subComponents = { DisplayHead, DisplayBody };
+
+
+
 // function displayFactory(component = "", checks = [], params = {}, subcomponents = {},  isError = false) {
+
+
 const DM = displayFactory(MainComponent, [], {}, { DisplayHead, DisplayBody });
+
+// const DM = displayFactory(MainComponent, [], params, subComponents);
+
+// const DM = displayFactory(objObjObj, [], {});
 
 
 DM.display();
+
+
+
 
 
 

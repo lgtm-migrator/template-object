@@ -26,6 +26,15 @@ function displayFactory(component = "<h1>Hello</h1>", checks = [], params = {}, 
           checks.map(() => {
 
           })
+
+          if(subcomponents){
+            //   subcomponents.map((component) => {
+            //     component.init();
+            //   })
+          }
+
+        
+
       }
       //log: () => `${regEx}, ${name}`,
   

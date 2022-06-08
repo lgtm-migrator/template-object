@@ -19,6 +19,23 @@ const checkingTitle = (title) => {
     }
 }
 
+
+//variant one
+// const settings = {
+//   component: MainComponent,
+//   params: {  },
+//   subComponents: { DisplayHead, DisplayBody }
+  
+// }
+
+
+// const DM = displayFactory(objObjObj, [], {});
+
+
+// DM.display();
+
+
+
 const DisplayHead = {
   component: headComponent,
   params: { title, headStylesComponent, fonts },

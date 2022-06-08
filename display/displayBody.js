@@ -18,6 +18,23 @@ let logoTop = '';
 let logoBottom = '';
 let content = '';
 
+
+
+
+
+//variant one
+// const settings = {
+//     component: MainComponent,
+//     params: {  },
+//     subComponents: { DisplayHead, DisplayBody }
+    
+//   }
+
+  // const DM = displayFactory(objObjObj, [], {});
+
+
+// DM.display();
+
 // note that footer param here is a subcomponent, 
 // so we passing footerDisplay instead of just a component
 const DisplayBody = {
