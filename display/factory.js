@@ -8,7 +8,7 @@ function displayFactory(component = "<h1>Hello</h1>", checks = [], params = {}, 
   
           //here i want to apply a check and see if everything is fine, if not we generate error = true 
   
-          component(params) 
+          component(params, subcomponents) 
       
       },
         
@@ -35,7 +35,9 @@ function displayFactory(component = "<h1>Hello</h1>", checks = [], params = {}, 
 
         
 
-      }
+      },
+
+      log: () => { console.log(this.display()) }
       //log: () => `${regEx}, ${name}`,
   
       //get: () => {name:name, regEx:regEx, replace:replace(), isError:false},

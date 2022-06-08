@@ -30,7 +30,7 @@ let content = '';
     
 //   }
 
-  // const DM = displayFactory(objObjObj, [], {});
+  // const DM = displayFactory(settings, [], {});
 
 
 // DM.display();

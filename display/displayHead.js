@@ -29,7 +29,7 @@ const checkingTitle = (title) => {
 // }
 
 
-// const DM = displayFactory(objObjObj, [], {});
+// const DM = displayFactory(settings, [], {});
 
 
 // DM.display();

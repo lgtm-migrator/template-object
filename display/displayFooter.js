@@ -23,10 +23,15 @@ const settings = {
   
 }
 
-// const DM = displayFactory(objObjObj, [], {});
+const DisplayFooterV2 = displayFactory(settings, [], {});
 
+console.log(DisplayFooterV2);
+
+console.log(DM.display())
 
 // DM.display();
+
+
 
 const DisplayFooter = {
     component: footerComponent,
