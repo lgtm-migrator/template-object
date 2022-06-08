@@ -1,3 +1,5 @@
+import displayFactory from './factory';
+
 // partials
 import DisplayHead from './displayHead';
 import DisplayBody from './displayBody';
@@ -10,12 +12,19 @@ import DisplayBody from './displayBody';
 console.log(DisplayHead);
 console.log(DisplayBody);
 
+// function displayFactory(component = "", checks = [], params = {}, subcomponents = {},  isError = false) {
+const DM = displayFactory(MainComponent, [], {}, { DisplayHead, DisplayBody });
+
+
+DM.display();
+
 
 
 
 const DisplayMain = {
   component: MainComponent,
-  params: { DisplayHead, DisplayBody },
+  params: {  },
+  subComponents: { DisplayHead, DisplayBody }
   display: () => {
     
     //  console.log(this.component(params))

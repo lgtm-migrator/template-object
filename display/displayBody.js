@@ -1,3 +1,4 @@
+import displayFactory from './factory';
 import EmailTemplateBodyComponent from '../components/body';
 
 

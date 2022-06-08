@@ -1,3 +1,5 @@
+import displayFactory from './factory';
+
 import footerComponent from "../components/footer";
 
 import misc from 'atherdon-newsletter-js-layouts-misc';
