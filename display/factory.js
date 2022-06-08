@@ -26,6 +26,7 @@ function displayFactory(component = "<h1>Hello</h1>", checks = [], params = {}, 
       try: () => {
   
       },
+	get: () = > { return component; },
       checks: () => {
           checks.map(() => {
 
