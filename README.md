@@ -23,10 +23,10 @@ We need to have
 
 
 
+[
+](https://stackoverflow.com/questions/60048450/object-constructor-from-template-object)
 
-
-
-
+https://github.com/sindresorhus/object-assign
 ----
 
 #### Arthur Tkachenko articles
