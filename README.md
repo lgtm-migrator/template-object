@@ -3,7 +3,19 @@
 
 
 
+We need to have
 
+A tree like structure for rendering components in "recursive" way
+
+An ability to add checks with returning errors.
+
+An ability to have isError variable that will help us to understand if everything is ok or not.
+
+be able to return data.
+
+merge it with test cases that we had before.
+
+have a template object that we can use as source too
 
 
 
