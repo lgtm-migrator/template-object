@@ -49,6 +49,7 @@
     "access": "public"
   },
   "dependencies": {
+    "easy-factory": "^1.3.0",
     "lodash": "^4.17.21"
   },
   "optionalDependencies": {
