@@ -1,0 +1,5 @@
+const settings = {
+    component: EmailTemplateBodyComponent,
+    // params: { footerComponent, logoTop, logoBottom, content },
+    params: addon1
+}
