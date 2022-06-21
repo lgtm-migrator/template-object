@@ -1,6 +1,6 @@
 # template-object
 
-
+`yarn add email-template-object`
 
 
 We need to have
