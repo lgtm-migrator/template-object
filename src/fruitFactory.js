@@ -1,7 +1,6 @@
-'use strict';
  
-import Factory from 'easy-factory';
-
+// import Factory from 'easy-factory';
+import Factory from "./easyFactory";
  
 /* eslint-disable global-require */
  
@@ -11,6 +10,7 @@ import Factory from 'easy-factory';
  *
  * @class FruitFactory
  */
+
 class FruitFactory extends Factory {
   /**
    * Decide which fruit to instantiate based on the size and sugar.
