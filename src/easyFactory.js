@@ -32,10 +32,10 @@ class FruitFactory extends Factory {
 
     if (context.size >= 5) {
       // This is a big fruit.
-      return context.sugar >= 5 ? require('./mango') : require('./pumpkin');
+      return context.sugar >= 5 ? './mango' : './pumpkin';
     }
 
-    return context.sugar >= 5 ? require('./grape') : require('./almond');
+    return context.sugar >= 5 ? './grape' : './almond';
   }
 }
  
