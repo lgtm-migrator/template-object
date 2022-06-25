@@ -11,7 +11,7 @@ const fruit = FruitFactory.create({size: 10, sugar: 10}, 'constructor argument')
 console.log(fruit)
 
 
-export default {
+export {
     FruitFactory,
     displayFactoryTwo
 }
