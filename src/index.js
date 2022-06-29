@@ -2,7 +2,7 @@
 //import FruitFactory from "./fruitFactory";
 import displayFactoryTwo from "./factoryTwo";
 
-
+import factoryFour from "./factoryFour";
 
 //const fruit = FruitFactory.create({size: 10, sugar: 10}, 'constructor argument');
 
@@ -13,5 +13,6 @@ import displayFactoryTwo from "./factoryTwo";
 
 export {
     //FruitFactory,
-    displayFactoryTwo
+    displayFactoryTwo,
+    factoryFour
 }

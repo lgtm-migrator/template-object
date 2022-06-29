@@ -5,20 +5,22 @@ const settings = {
 }
 
 
+return settings;
 
-const objectAssign = require('object-assign');
 
-objectAssign({foo: 0}, {bar: 1});
-//=> {foo: 0, bar: 1}
+// const objectAssign = require('object-assign');
 
-// multiple sources
-objectAssign({foo: 0}, {bar: 1}, {baz: 2});
-//=> {foo: 0, bar: 1, baz: 2}
+// objectAssign({foo: 0}, {bar: 1});
+// //=> {foo: 0, bar: 1}
 
-// overwrites equal keys
-objectAssign({foo: 0}, {foo: 1}, {foo: 2});
-//=> {foo: 2}
+// // multiple sources
+// objectAssign({foo: 0}, {bar: 1}, {baz: 2});
+// //=> {foo: 0, bar: 1, baz: 2}
 
-// ignores null and undefined sources
-objectAssign({foo: 0}, null, {bar: 1}, undefined);
-//=> {foo: 0, bar: 1}
+// // overwrites equal keys
+// objectAssign({foo: 0}, {foo: 1}, {foo: 2});
+// //=> {foo: 2}
+
+// // ignores null and undefined sources
+// objectAssign({foo: 0}, null, {bar: 1}, undefined);
+// //=> {foo: 0, bar: 1}
