@@ -1,3 +1,20 @@
+// class factoryFour2 {
+//     constructor(component, params) {
+        
+//         this.component = component;
+//         this.params = params;
+//     }
+
+//     create = (settings) => {
+//         const { component, params } = settings;
+
+
+
+//     }
+// }
+
+// I want factory to return an object that can be changable.
+
 function factoryFour(settings){
 
 
@@ -24,4 +41,4 @@ function factoryFour(settings){
 
 }
 
-export default factoryFour;
+export { factoryFour, factoryFour2 };

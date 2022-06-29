@@ -6,8 +6,13 @@ const {
 
 
 const settings = {
-
+  component: "EmailTemplateBodyComponent",
+  params: {
+    a:'a', b:'b', c:'c', d:'d', e:'e'
+  }
 };
+
+
 
 
 describe('test ', () => {
@@ -15,7 +20,11 @@ describe('test ', () => {
 
     test('rendering', () => {
 
-      console.log(new factoryFour())
+      
+
+      var Factory = new factoryFour(settings)
+
+      console.log(Factory.start())
 
     });
     
