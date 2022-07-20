@@ -1,6 +1,7 @@
 //import Factory from "./easyFactory";
 //import FruitFactory from "./fruitFactory";
 import displayFactoryTwo from "./factoryTwo";
+import displayFactoryTwoPointFive from "./displayFactoryTwoPointFive";
 
 import factoryFour from "./factoryFour";
 
@@ -13,6 +14,6 @@ import factoryFour from "./factoryFour";
 
 export {
     //FruitFactory,
-    displayFactoryTwo,
+    displayFactoryTwo, displayFactoryTwoPointFive,
     factoryFour
 }
