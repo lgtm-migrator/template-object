@@ -3,7 +3,7 @@
 import displayFactoryTwo from "./factoryTwo";
 import displayFactoryTwoPointFive from "./displayFactoryTwoPointFive";
 
-import factoryFour from "./factoryFour";
+import { factoryFour } from "./factoryFour";
 
 //const fruit = FruitFactory.create({size: 10, sugar: 10}, 'constructor argument');
 

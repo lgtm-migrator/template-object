@@ -1,4 +1,4 @@
-// class factoryFour2 {
+class factoryFour2 {
 //     constructor(component, params) {
         
 //         this.component = component;
@@ -11,7 +11,7 @@
 
 
 //     }
-// }
+}
 
 // I want factory to return an object that can be changable.
 
